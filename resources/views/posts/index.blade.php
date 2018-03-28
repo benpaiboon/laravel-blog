@@ -30,7 +30,7 @@
     </div>
     @endforeach
   </div>
-  {{$posts->links()}}
+  <div class="float-right">{{$posts->links()}}</div>
   @else
       <p>No posts found</p>
   @endif
